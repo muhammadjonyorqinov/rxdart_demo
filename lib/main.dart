@@ -10,7 +10,7 @@ void main() {
 }
 Future<void> appCenter() async {
   await AppCenter.startAsync(
-    appSecretAndroid: "344b205b-1114-4fd2-ac34-ec86c38ac91a", //YOUR android APPSECRET CODE
+    appSecretAndroid: "8936de53-072d-4208-92a9-66c8ef1a4208", //YOUR android APPSECRET CODE
     appSecretIOS: "1f1d7790-69cf-409d-8bd2-2cfad023a4ad", //YOUR iOS APPSECRET CODE
     enableAnalytics: true,
     // Defaults to true
