@@ -10,8 +10,8 @@
 # See https://flutter.dev/docs/deployment/android#reference-the-keystore-from-the-app
 #key.properties
 
-
-/.gradle
-/captures/
-/local.properties
-GeneratedPluginRegistrant.java
+# Android related
+**/android/.gradle
+**/android/captures/
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
